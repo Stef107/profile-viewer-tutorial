@@ -2,28 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Profile Viewer</title>
+  <title>プロフィールビューワー</title>
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <h1>Profile viewer</h1>
+  <h1>プロフィールビューワー</h1>
   <p id="login">
-    You are not logged in.
-    <button>Log in</button>
+    ログインしていません
+    <button>ログイン</button>
   </p>
   <p id="logout">
-    You are logged in as <span id="user"></span>.
-    <button>Log out</button>
+    ユーザー名"<span id="user"></span>"としてログインしています
+    <button>ログアウト</button>
   </p>
   <p>
-    <label for="profile">Profile:</label>
+    <label for="profile">プロフィール:</label>
     <input id="profile">
-    <button id="view">View</button>
+    <button id="view">みる</button>
   </p>
   <dl id="viewer">
-    <dt>Full name</dt>
+    <dt>フルネーム</dt>
     <dd id="fullName"></dd>
-    <dt>Friends</dt>
+    <dt>友達</dt>
     <dd>
       <ul id="friends"></ul>
     </dd>
