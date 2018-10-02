@@ -1,36 +1,40 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>プロフィールビューワー</title>
-  <link rel="stylesheet" href="styles/main.css">
+<meta charset="utf-8">
+<title>プロフィール ビューワー / Solid Community</title>
+<link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
-  <h1>プロフィールビューワー</h1>
-  <p id="login">
-    ログインしていません
-    <button>ログイン</button>
-  </p>
-  <p id="logout">
-    ユーザー名"<span id="user"></span>"としてログインしています
-    <button>ログアウト</button>
-  </p>
-  <p>
-    <label for="profile">プロフィール:</label>
-    <input id="profile">
-    <button id="view">みる</button>
-  </p>
-  <dl id="viewer">
-    <dt>フルネーム</dt>
-    <dd id="fullName"></dd>
-    <dt>友達</dt>
-    <dd>
-      <ul id="friends"></ul>
-    </dd>
-  </dl>
-  <script src="scripts/jquery.js"></script>
-  <script src="scripts/solid-auth-client.bundle.js"></script>
-  <script src="scripts/rdflib.min.js"></script>
-  <script src="scripts/main.js"></script>
+<h1>プロフィール ビューワー</h1>
+
+<p id="login">
+	ログインしていません。
+	<button>ログイン</button>
+</p>
+
+<p id="logout">
+	ユーザ名「<span id="user"></span>」でログインしています。
+	<button>ログアウト</button>
+</p>
+
+<p>
+	<label for="profile">プロフィール：</label>
+	<input id="profile">
+	<button id="view">みる</button>
+</p>
+
+<dl id="viewer">
+	<dt>フルネーム</dt><dd id="fullName"></dd>
+	<dt>ノート</dt><dd id="note"></dd>
+	<dt>友達</dt><dd><ul id="friends"></ul></dd>
+</dl>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/solid-auth-client.bundle.js"></script>
+<script src="scripts/rdflib.min.js"></script>
+<script src="scripts/main.js"></script>
+
 </body>
 </html>
