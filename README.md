@@ -9,7 +9,7 @@ English ver.
 # to add note  
 
 index.html  
-<dt>Note</dt><dd id="note"></dd>  
+&lt;dt&gt;Note&lt;/dt&gt;&lt;dd id="note"&gt;&lt;/dd&gt;  
 
 main.js  
 const VCARD = $rdf.Namespace('http://www.w3.org/2006/vcard/ns#');  
